@@ -22,7 +22,7 @@ function handleAudioStream(stream) {
     let average = sum / bufferLength;
 
     // Si el volumen promedio supera un cierto umbral, "apaga" las velas
-    if (average > 10) { // Puedes ajustar este valor según sea necesario
+    if (average > 50) { // Puedes ajustar este valor según sea necesario
       blowOutCandles();
     }
 
